@@ -1,0 +1,126 @@
+body {
+	font-family: "cambria";
+	background-color: #ccc;
+}
+
+.head_box {
+	position: relative;
+	height: 600px;
+	background-image: url("../images/crowd_background.png");
+	background-size: cover;
+	background-position: top center;
+	background-attachment: fixed;
+	overflow: hidden;
+}
+
+.crowd1 {
+	position: absolute;
+	height: 70%;
+	width: 100%;
+	background-color: transparent;
+	background-image: url("../images/crowd_layer_1.png");
+	background-size: contain;
+	background-position: center;
+	background-repeat: repeat-x;
+	top: 60%;
+	margin-top: -2px;
+	padding-top: 2px;
+	-moz-background-clip: padding; /*Firefox 3.6 */
+	-webkit-background-clip: padding; /*safari 4, Chrome 6 */
+	background-clip: padding; /*Firefox 4, Safari 5, Opera 10, IE 9 */
+}
+
+.atrlogo {
+	position: absolute;
+	height: 50%;
+	width: 100%;
+	background: transparent;
+	background-image: url("../images/atr_logo.png");
+	background-size: contain;
+	background-position: top;
+	background-repeat: no-repeat;
+	top: 20%;
+	margin-top: -20px;
+}
+
+.crowd2 {
+	position: absolute;
+	height: 90%;
+	width: 100%;
+	background: transparent;
+	background-image: url("../images/crowd_layer_2.png");
+	background-size: contain;
+	background-position: top;
+	background-repeat: repeat-x;
+	top: 75%;
+	-webkit-background-clip: padding;
+}
+
+p {
+	width: 600px;
+	padding: 10px;
+	margin: 10px;
+}
+
+.menu {
+	top: 0;
+	display: flex;
+	width: 100%;
+	background-color: #292421;
+	justify-content: space-around;
+}
+
+.menu_item {
+	padding: 5px;
+	margin: 5px;
+	background-color: #ee0402;
+	flex-grow: 1;
+	text-align: center;
+	border-radius: 2px;
+	box-shadow: 0px 0px 0px 0px #aaa, 0px 0px 0px 1px #aaa, 0px 0px 1px 3px #f22000;
+	-webkit-transition: all 0.3s; /* Safari */
+    transition: all 0.3s;
+    top: 10%;
+}
+
+.menu_item:hover {
+	background-color: #FF0000;
+	box-shadow: 0px 0px 10px 4px #aaa, 0px 0px 0px 1px #aaa, 0px 0px 0px 3px #FF6103;
+
+}
+
+.menu_item:active {
+	background-color: #CD661D;
+}
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
+
+.main_page {
+	position: relative;
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #fff;
+}
+
+.portal {
+	float: right;
+	width: 150px;
+	height: 150px;
+	background-color: #aaaaff;
+	margin: 10px;
+}
+
+.image1 {
+
+}
+
+.image2 {
+	top: 180px;
+}
